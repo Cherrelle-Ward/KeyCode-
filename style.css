@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key, .key-code{
+    width: 35rem;
+    height: 15rem;
+    background-color: rgb(255, 0, 85);
+    /* border-radius: 1; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key h1{
+    font-size: 5rem;
+
+    
+}
+
+.key h3{
+    font-size: 2rem;
+
+}
+
+.key-code{
+    background-color: #197ff5;
+    margin-top: 10rem;
+    display: flex;
+    opacity: 0.8;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+}
